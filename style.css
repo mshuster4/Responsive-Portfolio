@@ -207,18 +207,26 @@ a:visited {
 }
 
 @media screen and (max-width: 980px) {
-    .container .wrapper{
-        width: 860px; 
-        margin-left: 50px;
+    .wrapper
+    {
+        width: 980px; 
+        margin-left: 50px; 
     }
-    .main-content{
+
+    .nav{
+        clear: right; 
+        margin-right: 100px; 
+    }
+
+
+    .main-content {
         width: 50%;
         float: left;
         margin-left: 30px;
     }
 
-    .content-header
-    {
+
+    .content-header {
         width:  100%;
         margin-left: auto;
         margin-right: auto; 
@@ -226,11 +234,60 @@ a:visited {
         margin-bottom: 25px; 
     }
 
-    .column{
-        width: 50%; 
-        float: left;
+}
+
+@media screen and (max-width: 768px) {
+
+    .wrapper{
+        width: 768px; 
+    }
+    
+    .container {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto; 
     }
 
+    .main-content {
+        width: 650px;
+        clear: both; 
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .wrapper {
+        width: 640px;
+        margin-right: auto;
+        margin-left: auto; 
+        padding-bottom: 70px
+    }
+
+    .nav{
+        clear: both; 
+        margin-right: 180px; 
+    }
+    .container {
+        width: 640px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    .main-content {
+        width: 535px;
+        clear: both; 
+    }
+
+    .main-header{
+        clear: both;
+        width: 640px;
+    }
+
+    header {
+        width: 100%; 
+        position: static; 
+        text-align: center; 
+        clear: both;  
+    }
 }
 
 
