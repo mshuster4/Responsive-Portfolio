@@ -2,47 +2,51 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../homework1//Basic-Portfolio/assets/css/reset.css">
         <link rel="stylesheet" href="style.css">
         <title>Marguerite Shuster</title>
     </head>
+    
+    
     <body>
         <header>
-            <div class="wrapper">
-                <div class="main-header">
-                    <h1>Marguerite Shuster</h1>
-                </div>
+            <div class="container">
+                <h1 id="headerLogo">Marguerite Shuster</h1>
                 <div class="nav">
                     <nav>
-                        <a class="about-button" href="index.html">About</a>
-                        <a class="port-button" href="portfolio.html">Portfolio</a>
-                        <a class="contact-button" href="contact.html">Contact</a>
+                        <a id="aboutButton" href="index.html">About</a>
+                        <a id="portButton" href="portfolio.html">Portfolio</a>
+                        <a id="contactButton" href="contact.html">Contact</a>
                     </nav>
                 </div>
             </div>
         </header>
-        <br>
-        <div class="container">
-            <div class="main-content">
-                <div class="content-header">
-                    <h2>About Me</h2>
-                </div>
-            <br>
-            <main>
-                <div>
-                <p><img id="headShot" src="../homework1/Basic-Portfolio/assets/images/headshot.jpg" alt="Headshot">
+
+        <div class="page-wrapper">
+            <div id="mainContainer" class="container">
+                <div class="main-content">
+                    <div class="main-header">
+                        <h2>About Me</h2>
+                    </div>
+                    <p>
+                        <img id="headShot" src="../homework1/Basic-Portfolio/assets/images/headshot.jpg" alt="Headshot">
                         Marguerite Shuster is an aspiring web developer with professional experience in multiple industries. Originally 
                         from Minneapolis, Minnesota Marguerite graduated in 2013 from University of Minnesota, Twin Cities with a BA in Psychology and Communications.
                         Since leaving academia and moving to San Diego she has worked as a disc jockey, bartender, personal assistant, and dog walker. 
                         In her free time, Marguerite enjoys horseback riding, attending concerts and spending time with her dog, Yoshi.
-                </p>
+                    </p>
                 </div>
-            </main>
-            <br>
-                <div class="footer">
-                <footer>Copyright &copy;</footer>
-                </div>
+                
+                <div class="footer-push"></div>
             </div>
         </div>
+
+
+        <footer>
+            <div class="container">
+                Copyright &copy;
+            </div>
+        </footer>      
     </body>
 </html>
