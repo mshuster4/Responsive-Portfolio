@@ -149,7 +149,7 @@ p {
     height: 115PX;
     border: 0 none;
     opacity: 0.8;
-    vertical-align: middle;
+    vertical-align: middle; 
 }
 
 .port-images:hover {
